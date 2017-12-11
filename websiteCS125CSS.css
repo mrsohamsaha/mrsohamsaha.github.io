@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 204);
+}
+body, html{
+    height: 100%; /*adds a scrolling bar */
+    
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 16px;
+    margin-left: 20px;
+    margin-top: -2800px;
+    font-size: 550%;
+   
+    <i class="material-icons">assignment_return</i>
+}
+
+h2 {
+    color: ghostwhite;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    letter-spacing: 14px;
+    margin-left: 20px;
+    margin-bottom: -2700px;
+    font-size: 560%;
+    
+    <i class="material-icons">assignment_return</i>
+}
+h3{
+    font-size: 200%;
+    text-align: center; 
+    background-color: transparent;
+}
+.fa-3x{
+    font-size: 3em;
+}
+.stuff{
+    text-align:center; 
+     
+}
+.stuff a{
+    color: gray;
+    text-decoration:none; 
+    font-size: 2.5em; 
+    letter-spacing: 50px; 
+    text-shadow: 5px 0px 5px silver;
+    
+}
+
