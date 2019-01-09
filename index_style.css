@@ -96,12 +96,21 @@ footer{
 }
 .media h1 {
     font-weight: lighter; 
-    font-size: 40px;
+    font-size: 50px;
     color: #fff; 
     text-align: center; 
     padding-top: 50px; 
     margin-bottom: 0; 
 }
+.media h2 {
+    font-weight: bolder; 
+    font-size: 30px;
+    color: #e8491d; 
+    text-align: center; 
+    padding-top: 20px; 
+    margin-bottom: 0; 
+}
+
 
 .media li{
     list-style: none; 
