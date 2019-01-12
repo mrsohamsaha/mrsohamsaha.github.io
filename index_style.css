@@ -104,6 +104,153 @@ header a:hover{
     font-size: 25px; 
 }
 
+
+
+
+/*Projects*/
+
+.projects h1{
+    font-weight: bolder; 
+    font-size:45px;
+    color: #fff; 
+    text-align: center;
+           text-shadow:
+    -1px -1px 0 #e8491d,
+     0   -1px 0 #e8491d,
+     1px -1px 0 #e8491d,
+     1px  0   0 #e8491d,
+     1px  1px 0 #e8491d,
+     0    1px 0 #e8491d,
+    -1px  1px 0 #e8491d,
+    -1px  0   0 #e8491d;
+}
+.projects h2{
+    text-align: left; 
+    padding-left: 170px;
+    margin-top: 0px; 
+    font-size: 20px; 
+}
+
+.projects p {
+    padding: 10px; 
+    padding-left: 170px;
+    padding-right: 170px; 
+}
+
+
+
+/*
+
+.onecolumn{
+    width: 50%;
+  padding: 5px;
+}
+*/
+
+.onecolumn img {
+    max-width: 45%; 
+    max-height: 20%; 
+}
+.centerOne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.centerOne_CS125 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 19%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.twocolumn{
+    float: left; 
+    width: 50%;
+/*  padding: 5px;*/
+
+}
+.twocolumn img {
+    max-width: 45%; 
+    max-height: 20%; 
+}
+
+.centerTwo0 {
+  display: block;
+  margin-left: 40%;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerTwo0_Codifyd {
+  display: block;
+  margin-left: 40%;
+  margin-right: auto;
+    margin-top: 10%; 
+  width: 50%;
+}
+/* Specific for Jensen Lab Logo*/
+.centerTwo0_0 {
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 35%;
+}
+
+.centerTwo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: 40%;
+  width: 50%;
+}
+
+
+.threecolumn{
+    float: left; 
+    width: 33.33%;
+/*  padding: 5px;*/
+
+}
+.threecolumn img {
+    max-width: 45%; 
+    max-height: 20%; 
+}
+
+.centerThree0 {
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerThree1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerThree2 {
+  display: block;
+  margin-left: auto;
+  margin-right: 50%;
+  width: 50%;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
 footer{
     padding: 10px; 
     margin-top: 30px; 
@@ -112,6 +259,14 @@ footer{
     text-align: center; 
 }
 
+
+
+
+/*Connect*/
+
+.media a{
+    text-decoration: none; 
+}
 .media ul{
     display: table;
     margin: 0 auto; 
