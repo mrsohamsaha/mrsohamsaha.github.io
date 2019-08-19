@@ -1071,3 +1071,60 @@
     margin-top: 1.2em;
     margin-left: 2em; 
 }
+
+.disease {
+    width: 5em;  
+    height: 5em; 
+    margin-top: 0em;
+    margin-left: 2em;
+}
+
+.diseasePics{
+    display: flex;
+    justify-content: center;
+}
+
+.diseaseScreenshots{
+    width: 10.8em;  
+    height: 19.2em;
+    margin-right: 10em;
+}
+
+.IDOT{
+    width: 14em;  
+    height: 4em; 
+    margin-top: 1em;
+    margin-left: 2em;
+    
+}
+
+.beats{
+    width: 9em; 
+    height: 5em; 
+    margin-top: 0em;
+    margin-left: 1.5em;
+}
+
+.beatsPics{
+    display: flex;
+    justify-content: center;
+}
+
+.beatsPoster{
+    width: 28.23em;  
+    height: 17em;
+    margin-bottom: 0em;
+}
+
+.distractedDriver{
+    width: 12.8em;  
+    height: 9.6em;
+    margin-bottom: 0em;
+    
+}
+
+.cnnDiagram{
+    width: 36em;  
+    height: 11em;
+    margin-left: 5em;
+}
