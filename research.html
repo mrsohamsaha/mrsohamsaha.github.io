@@ -56,7 +56,28 @@
                         <img src="images/Jensen_Lab.png" alt="Jensen Lab" class="jensen">
                         </div>
 					</header>
-					<p>I work under the guidance of Dr. Paul Jensen to study how the bacteria S. sobrinus plays a role in cavity formation using computational techniques. My role is to build automated solutions for bacteria transformation experiments by developing computer vision algorithms for colony tracking and designing protocols on an Opentrons pipetting robot to carry out the experimentation.</p>						
+					<p>I work under the guidance of Professor Paul Jensen to study how the bacteria S. sobrinus plays a role in cavity formation using computational techniques. My role is to build automated solutions for bacteria transformation experiments. I am building a colony picking tool that uses a computer vision algorithm to detect viable colonies and then creates a protocol for a robotic arm to carry out the experimentation. I deployed this tool as a Django web application for microbiologists to utilize in their day-to-day experiments.</p>
+                    <p>Below are screenshots of the web application interface.
+                    </p>
+                    <div >
+                        <div>
+                        <h1 class="title">Home Page</h1>
+                        <img src="images/HomePage.png" alt="ColonyTracker Home Page" class="ColonyTrackHome">
+                        <p class ="description">Users upload an image of a petri dish filled with bacterial colonies on the home page. </p>
+                        </div>
+                        
+                        <div>
+                        <h1 class="title">Threshold Page</h1>
+                        <img src="images/Threshold.png" alt="ColonyTracker Threshold Page" class="ColonyTrackThreshold">
+                        <p class ="description">The threshold page contains a view of the uploaded image (left) and a view of the same image after converting it to a binary image (right). There is a zoom-tool that allows users to hover over either image and a zoomed preview of the selected region will appear below. The bottom of the page contains range sliders to update the parameters of the binary threshold.</p>
+                        </div>
+                        
+                        <div>
+                        <h1 class="title">Colony Picking Page</h1>
+                        <img src="images/Pick.png" alt="ColonyTracker Pick Page" class="ColonyTrackPick">
+                        <p class ="description">The colony picking page analyzes how many viable single colonies are present on the petri dish. These viable colonies are ranked and have a red outline in the original and binary image. There is a range slider for the user to choose how many colonies they want to pick out. Below the range slider is a "Download Coordinates" button that outputs the coordinates of the selected colonies into a CSV file.</p>
+                        </div>
+                    </div>
 				</section>
                 <h2>Links: <a href="http://jensenlab.net/">Lab Website</a>, <a href="https://github.com/mrsohamsaha/JensenLab_Research">GitHub Repository</a> </h2> 
 			</div>

@@ -1142,3 +1142,40 @@
     height: 11em;
     margin-left: 5em;
 }
+
+.ColonyTrackHome{
+    width: 57.6em;  
+    height: 16.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 1em;
+}
+
+.ColonyTrackThreshold{
+    width: 57.6em;  
+    height: 47.4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.ColonyTrackPick{
+    width: 57.6em;  
+    height: 49.2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+p.description {
+    text-align: center;
+}
+
+h1.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1em;
+}
