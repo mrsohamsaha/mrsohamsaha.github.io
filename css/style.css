@@ -1033,30 +1033,25 @@
     
 }
 
-.statefarm {
-    width: 10em;  
-    height: 4.5em; 
-    margin-top: 2em;
-    margin-left: 2em; 
-}
-
-.cs125 {
-    width: 5em;  
-    height: 5em; 
-    margin-top: 2em;
-    margin-left: 2em; 
-}
-
-.gdc {
-    width: 6em;  
-    height: 6em; 
-    margin-top: 2em;
-    margin-left: 2em; 
-}
+/* Work Experience styling*/
 
 .uber {
     width: 10em;  
     height: 5em; 
+    margin-top: 2em;
+    margin-left: 2em; 
+}
+
+.c1 {
+    width: 10em;  
+    height: 3.5em; 
+    margin-top: 2em;
+    margin-left: 2em; 
+}
+
+.statefarm {
+    width: 10em;  
+    height: 4.5em; 
     margin-top: 2em;
     margin-left: 2em; 
 }
@@ -1067,24 +1062,44 @@
     margin-top: 3em;
     margin-left: 2em; 
 }
+
+/* Research styling*/
+
 .jensen {
     width: 7em;  
     height: 7em; 
     margin-top: 0em;
     margin-left: 2em; 
 }
-.BMES {
-    width: 10em;  
-    height: 4em; 
+
+.ColonyTrackHome{
+    width: 57.6em;  
+    height: 16.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
     margin-top: 1em;
-    margin-left: 2em; 
 }
-.SAIL {
-    width: 8em;  
-    height: 4.5em; 
-    margin-top: 1.2em;
-    margin-left: 2em; 
+
+.ColonyTrackThreshold{
+    width: 57.6em;  
+    height: 47.4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
 }
+
+.ColonyTrackPick{
+    width: 57.6em;  
+    height: 49.2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+/* Projects styling*/
 
 .disease {
     width: 5em;  
@@ -1137,37 +1152,38 @@
     
 }
 
+/* Extracurriculars & Volunteering styling*/
+
 .cnnDiagram{
     width: 36em;  
     height: 11em;
     margin-left: 5em;
 }
-
-.ColonyTrackHome{
-    width: 57.6em;  
-    height: 16.8em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-    margin-top: 1em;
+.cs125 {
+    width: 5em;  
+    height: 5em; 
+    margin-top: 2em;
+    margin-left: 2em; 
 }
 
-.ColonyTrackThreshold{
-    width: 57.6em;  
-    height: 47.4em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
+.gdc {
+    width: 6em;  
+    height: 6em; 
+    margin-top: 2em;
+    margin-left: 2em; 
 }
 
-.ColonyTrackPick{
-    width: 57.6em;  
-    height: 49.2em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.BMES {
+    width: 10em;  
+    height: 4em; 
     margin-top: 1em;
+    margin-left: 2em; 
+}
+.SAIL {
+    width: 8em;  
+    height: 4.5em; 
+    margin-top: 1.2em;
+    margin-left: 2em; 
 }
 
 p.description {
